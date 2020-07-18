@@ -1,0 +1,269 @@
+/*------------Home Page Styling-------------------*/
+
+body{
+	font:15px/1.5 Arial, helvetica, sans-serif;
+	padding:0;
+	margin:0;
+	background:#f4f4f4;
+}
+header {
+	background:#232F3E;
+	color:#ffffff;
+	padding-top:0px;
+	border-bottom:#D44D27 3px solid;
+	min-height:70px;
+	
+}
+header .branding{
+	float:left;
+}
+header .highlight{
+	color:#D44D27;
+	font-size:38px;
+}
+header .current a{
+	color:#D44D27;
+	font-weight:bold;
+}
+
+header nav{
+	float:right;
+	margin-top:40px;
+}
+header a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:16px;	
+}
+header a:hover{
+	color:#cccccc;
+	font-weight:bold;
+}	
+header li{
+	float: left;
+	display:inline;
+	padding:0 30px 0 5px;
+}
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+/*-------Showcase--------*/
+#showcase{
+	position:relative;
+	text-align:center;
+	color:#FFFFFF;
+}
+#showcase img{
+	max-height:700px;
+	width:100%;
+}
+.centered{
+  position:absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height:20px;
+  font-weight:bold;
+}
+#Subscribe{
+	padding:10px 0 10px 0;
+	color:#ffffff;
+	background:#232F3E;
+}
+#Subscribe h1{
+	float:left;
+	margin-right:10px;
+	
+}
+#Subscribe form{
+	float:right;
+	margin-top: 5px;
+}
+#Subscribe input[type="email"]{
+	padding:5px;
+	height:22px;
+	width:290px;
+}
+#Subscribe input[type="email"]:hover {
+	border-color:#D44D27;
+}
+.button-1{
+	height:35px;
+	background:#D44D27;
+	padding:0 15px 0 15px;
+	color:#ffffff;
+	cursor:pointer;	
+}
+#boxes{
+	margin-top:20px;
+	
+	
+}
+#boxes a{
+	text-decoration:none;
+	color:#3E4527;
+	cursor:pointer;
+}
+#boxes a:hover{
+	color:black;
+	letter-spacing:0.5px;
+}
+#boxes .box{
+	width:32.2%;
+	height:1100px;
+	float:left;
+	padding:10px 0 10px 0;
+	margin:0 5px 0 5px;
+	border: 1px solid #ccc;
+	letter-spacing:-0.2px;
+}
+#boxes .box img{
+	width:335px;
+	min-height:400px;
+	float:left;
+	margin:5px;
+	border: 1px solid #ccc;
+}
+#boxes .box:hover{
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+	
+
+footer{
+	padding:15px;
+	margin-top:10px;
+	color:#ffffff;
+	background:#AD2A05;
+	text-align:center;
+}
+
+/*---------------social-icons--------------*/
+  
+  
+  
+ #Subscribe.media {
+  position:absolute;
+  top:50%;
+  left:40%;
+  transform: translate(-50%, -50%);
+  margin:0;
+  padding:0;
+  display:flex;
+  float: right;
+}
+
+ #Subscribe .media li {
+  list-style: none;
+  float:left;
+}
+
+ #Subscribe .media li a {
+  position: relative;
+  width:55px;
+  height:55px;
+  display:block;
+  text-align:center;
+  margin:0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration:none;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+  background: linear-gradient(0deg, #ddd, #fff);
+  transition: .5s;
+}
+
+.media li a:hover {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.media li a .fa {
+  width: 100%;
+  height:100%;
+  display:block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size:20px;
+  color: #262626;
+  transition: .5s;
+}
+
+.media li:nth-child(1) a:hover .fa {
+  color: #4267B2;
+}
+
+.media li:nth-child(2) a:hover .fa {
+  color: #00aced;
+}
+
+.media li:nth-child(3) a:hover .fa {
+  color: #dd4b39;
+}
+
+.media li:nth-child(4) a:hover .fa {
+  color: #007bb6;
+}
+
+.media li:nth-child(5) a:hover .fa {
+  color: #e4405f;
+}
+ 
+/*------------Gallary Page Styling------------------------*/
+div.gallery {
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 220px;
+}
+
+div.gallery:hover {
+  border: 2px solid #232F3E;
+}
+
+div.gallery img {
+  width: 100%;
+  height:300px;
+}
+
+div h4{
+	text-align: center;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: justify;
+  font-size:16px;
+} 
+
+/*-------------Contact Page Styling------------------*/
+#main{
+	padding:10px;
+	background:
+}
+#contact_form{
+	width:600px;
+	background:#232F3E;
+	padding:20px;
+}
+label{
+	color:white;
+}
+#submit_button{
+	padding:5px white;
+	background:gray;
+	color:white;
+	cursor:pointer;
+	font-size:15px;
+}
+.quick{
+	color:#FF9D16;
+	line-height:16px;
+	font-size:15px;
+}
